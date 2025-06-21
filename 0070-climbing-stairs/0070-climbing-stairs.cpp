@@ -1,16 +1,20 @@
 class Solution {
 public:
-int solve(int n,int i,vector<int>&dp)
-{
-    if(i==n) return 1;
-    if (i > n) return 0;
-     if (dp[i] != -1) return dp[i];
-
-    return dp[i]=solve(n,i+1,dp) + solve(n,i+2,dp);
-}
-    int climbStairs(int n) 
+    int solve(int indx, int n, vector<int>& memo) 
     {
-        vector<int>dp(n+1,-1);
-        return solve(n,0,dp);
+        if (indx == n) return 1;        // 1 valid path
+        if (indx > n) return 0;         // no valid path
+
+        if (memo[indx] != -1) return memo[indx];
+
+        // memoize the number of ways from current index
+        return memo[indx] = solve(indx + 1, n, memo) + solve(indx + 2, n, memo);
+    }
+
+    int climbStairs(int n) {
+        vector<int> memo(n + 1, -1);
+        return solve(0, n, memo);
     }
 };
+
+
