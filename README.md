@@ -17,5 +17,22 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
 | [0747-min-cost-climbing-stairs](https://github.com/dev-ut/dp/tree/master/0747-min-cost-climbing-stairs) |
+## String
+|  |
+| ------- |
+| [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
+## Depth-First Search
+|  |
+| ------- |
+| [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
+## Matrix
+|  |
+| ------- |
+| [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
