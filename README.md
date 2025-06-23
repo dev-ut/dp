@@ -4,10 +4,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/dev-ut/dp/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/dev-ut/dp/tree/master/0070-climbing-stairs) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/dev-ut/dp/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/dev-ut/dp/tree/master/0070-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/dev-ut/dp/tree/master/0747-min-cost-climbing-stairs) |
 ## Memoization
@@ -35,4 +37,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/dev-ut/dp/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
