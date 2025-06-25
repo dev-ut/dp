@@ -1,28 +1,34 @@
 class Solution {
 public:
-int solve(int i, int j, int r, int c, vector<vector<int>>& dp)
+    int uniquePaths(int m, int n) 
 {
-    // Out of bounds
-    if(i >= r || j >= c) return 0;
+    // Tabulation
+    int dp[m][n];
 
-    // Destination reached
-    if(i == r - 1 && j == c - 1) return 1;
+    for(int i = 0; i < m; i++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            if(i == 0 && j == 0)  // starting cell
+            {
+                dp[i][j] = 1;
+            }
+            else if(i == 0)
+            {
+                dp[i][j] = dp[i][j - 1]; // pehli row
+            }
+            else if(j == 0)
+            {
+                dp[i][j] = dp[i - 1][j]; // pehla column
+            }
+            else
+            {
+                dp[i][j] = dp[i - 1][j] + dp[i][j - 1]; // up + left
+            }
+        }
+    }
 
-    // Already computed
-    if(dp[i][j] != -1) return dp[i][j];
-
-    
-    int right=solve(i, j + 1, r, c, dp);// move right
-    int down=solve(i + 1, j, r, c, dp); //move down
-
-    // Store the result in dp
-    return dp[i][j] =  right+down; 
+    return dp[m - 1][n - 1];
 }
 
-int uniquePaths(int m, int n) 
-{
-    vector<vector<int>> dp(m, vector<int>(n, -1));
-    return solve(0, 0, m, n, dp);
-}
 };
-
