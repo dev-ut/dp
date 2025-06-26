@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/dev-ut/dp/tree/master/0120-triangle) |
 | [0198-house-robber](https://github.com/dev-ut/dp/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/dev-ut/dp/tree/master/0213-house-robber-ii) |
+| [0322-coin-change](https://github.com/dev-ut/dp/tree/master/0322-coin-change) |
 | [0747-min-cost-climbing-stairs](https://github.com/dev-ut/dp/tree/master/0747-min-cost-climbing-stairs) |
 ## Memoization
 |  |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/dev-ut/dp/tree/master/0120-triangle) |
 | [0198-house-robber](https://github.com/dev-ut/dp/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/dev-ut/dp/tree/master/0213-house-robber-ii) |
+| [0322-coin-change](https://github.com/dev-ut/dp/tree/master/0322-coin-change) |
 | [0747-min-cost-climbing-stairs](https://github.com/dev-ut/dp/tree/master/0747-min-cost-climbing-stairs) |
 ## String
 |  |
@@ -50,4 +52,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/dev-ut/dp/tree/master/0062-unique-paths) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/dev-ut/dp/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
