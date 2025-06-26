@@ -1,30 +1,36 @@
 class Solution {
 public:
-    int solve(vector<int>& coins, int indx, int amount, vector<vector<int>>& dp) 
-    {
-        if (amount == 0) return 0;
-        if (indx >= coins.size()) return 1e9;
-
-        if (dp[indx][amount] != -1) return dp[indx][amount];
-
-        int take = 1e9;
-        if (coins[indx] <= amount) 
-        {
-            take = 1 + solve(coins, indx, amount - coins[indx], dp);
-        }
-
-        int notTake = solve(coins, indx + 1, amount, dp);
-
-        return dp[indx][amount] = min(take, notTake);
-    }
-
     int coinChange(vector<int>& coins, int amount) 
     {
+
+        // ttabulation 
         int n = coins.size();
-        vector<vector<int>> dp(n, vector<int>(amount + 1, -1));
+        const int INF = 1e9;
 
-        int ans = solve(coins, 0, amount, dp);
+        vector<vector<int>> dp(n, vector<int>(amount + 1, INF));
 
-        return (ans >= 1e9) ? -1 : ans;  // ✅ Use same constant
+        // Base case: amt = 0 → 0 coins needed
+        for (int i = 0; i < n; i++) dp[i][0] = 0;
+
+        // Base case for first coin only
+        for (int amt = 1; amt <= amount; amt++) {
+            if (amt % coins[0] == 0)
+                dp[0][amt] = amt / coins[0];
+        }
+
+        // Fill the table
+        for (int i = 1; i < n; i++) {
+            for (int amt = 1; amt <= amount; amt++) {
+                int notTake = dp[i - 1][amt];
+                int take = INF;
+                if (coins[i] <= amt)
+                    take = 1 + dp[i][amt - coins[i]];
+
+                dp[i][amt] = min(take, notTake);
+            }
+        }
+
+        int ans = dp[n - 1][amount];
+        return (ans >= INF) ? -1 : ans;
     }
 };
