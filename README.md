@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/dev-ut/dp/tree/master/0020-valid-parentheses) |
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
 ## Backtracking
 |  |
@@ -79,4 +80,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/dev-ut/dp/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
