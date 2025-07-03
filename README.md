@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0031-next-permutation](https://github.com/dev-ut/dp/tree/master/0031-next-permutation) |
 | [0063-unique-paths-ii](https://github.com/dev-ut/dp/tree/master/0063-unique-paths-ii) |
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/dev-ut/dp/tree/master/0084-largest-rectangle-in-histogram) |
@@ -97,4 +98,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/dev-ut/dp/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/dev-ut/dp/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/dev-ut/dp/tree/master/0503-next-greater-element-ii) |
+## Two Pointers
+|  |
+| ------- |
+| [0031-next-permutation](https://github.com/dev-ut/dp/tree/master/0031-next-permutation) |
 <!---LeetCode Topics End-->
