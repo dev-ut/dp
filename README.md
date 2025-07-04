@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/dev-ut/dp/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/dev-ut/dp/tree/master/0216-combination-sum-iii) |
 | [0322-coin-change](https://github.com/dev-ut/dp/tree/master/0322-coin-change) |
+| [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/dev-ut/dp/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/dev-ut/dp/tree/master/0503-next-greater-element-ii) |
 | [0747-min-cost-climbing-stairs](https://github.com/dev-ut/dp/tree/master/0747-min-cost-climbing-stairs) |
@@ -102,4 +103,28 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/dev-ut/dp/tree/master/0031-next-permutation) |
+## Binary Search
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
+## Segment Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
+## Merge Sort
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
