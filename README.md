@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/dev-ut/dp/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/dev-ut/dp/tree/master/0031-next-permutation) |
 | [0063-unique-paths-ii](https://github.com/dev-ut/dp/tree/master/0063-unique-paths-ii) |
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/dev-ut/dp/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/dev-ut/dp/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/dev-ut/dp/tree/master/0031-next-permutation) |
 ## Binary Search
 |  |
