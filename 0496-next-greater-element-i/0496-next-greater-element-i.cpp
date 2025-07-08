@@ -42,10 +42,13 @@ vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2)
     // Ab nums1 ko traverse karke NGE find karo
     vector<int> result;  // Final result array
 
-    for (int i = 0; i < nums1.size(); i++) {
-        if (mp.find(nums1[i]) != mp.end()) {
+    for (int i = 0; i < nums1.size(); i++) 
+    {
+        if (mp.find(nums1[i]) != mp.end()) 
+        {
             result.push_back(mp[nums1[i]]);  // nums1 ke element ka NGE uthao
-        } else {
+        } else 
+        {
             result.push_back(-1);  // Agar nahi mila to -1 daal do
         }
     }
