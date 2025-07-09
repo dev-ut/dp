@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/dev-ut/dp/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/dev-ut/dp/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/dev-ut/dp/tree/master/0042-trapping-rain-water) |
+| [0046-permutations](https://github.com/dev-ut/dp/tree/master/0046-permutations) |
 | [0063-unique-paths-ii](https://github.com/dev-ut/dp/tree/master/0063-unique-paths-ii) |
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/dev-ut/dp/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/dev-ut/dp/tree/master/0046-permutations) |
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
 | [0216-combination-sum-iii](https://github.com/dev-ut/dp/tree/master/0216-combination-sum-iii) |
 ## Depth-First Search
