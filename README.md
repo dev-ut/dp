@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/dev-ut/dp/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/dev-ut/dp/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/dev-ut/dp/tree/master/0033-search-in-rotated-sorted-array) |
+| [0040-combination-sum-ii](https://github.com/dev-ut/dp/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/dev-ut/dp/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/dev-ut/dp/tree/master/0046-permutations) |
 | [0063-unique-paths-ii](https://github.com/dev-ut/dp/tree/master/0063-unique-paths-ii) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0040-combination-sum-ii](https://github.com/dev-ut/dp/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/dev-ut/dp/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/dev-ut/dp/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
