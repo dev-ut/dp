@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/dev-ut/dp/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/dev-ut/dp/tree/master/0503-next-greater-element-ii) |
 | [0747-min-cost-climbing-stairs](https://github.com/dev-ut/dp/tree/master/0747-min-cost-climbing-stairs) |
+| [1036-rotting-oranges](https://github.com/dev-ut/dp/tree/master/1036-rotting-oranges) |
 ## String
 |  |
 | ------- |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0063-unique-paths-ii](https://github.com/dev-ut/dp/tree/master/0063-unique-paths-ii) |
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
+| [1036-rotting-oranges](https://github.com/dev-ut/dp/tree/master/1036-rotting-oranges) |
 ## Combinatorics
 |  |
 | ------- |
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/dev-ut/dp/tree/master/0322-coin-change) |
 | [0547-number-of-provinces](https://github.com/dev-ut/dp/tree/master/0547-number-of-provinces) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1036-rotting-oranges](https://github.com/dev-ut/dp/tree/master/1036-rotting-oranges) |
 ## Tree
 |  |
 | ------- |
