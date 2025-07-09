@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/dev-ut/dp/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/dev-ut/dp/tree/master/0046-permutations) |
 | [0063-unique-paths-ii](https://github.com/dev-ut/dp/tree/master/0063-unique-paths-ii) |
+| [0078-subsets](https://github.com/dev-ut/dp/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/dev-ut/dp/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/dev-ut/dp/tree/master/0084-largest-rectangle-in-histogram) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0046-permutations](https://github.com/dev-ut/dp/tree/master/0046-permutations) |
+| [0078-subsets](https://github.com/dev-ut/dp/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
 | [0216-combination-sum-iii](https://github.com/dev-ut/dp/tree/master/0216-combination-sum-iii) |
 ## Depth-First Search
@@ -178,4 +180,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/dev-ut/dp/tree/master/0547-number-of-provinces) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/dev-ut/dp/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
