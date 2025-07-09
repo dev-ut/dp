@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/dev-ut/dp/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/dev-ut/dp/tree/master/0543-diameter-of-binary-tree) |
+| [0547-number-of-provinces](https://github.com/dev-ut/dp/tree/master/0547-number-of-provinces) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Matrix
 |  |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/dev-ut/dp/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/dev-ut/dp/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0322-coin-change](https://github.com/dev-ut/dp/tree/master/0322-coin-change) |
+| [0547-number-of-provinces](https://github.com/dev-ut/dp/tree/master/0547-number-of-provinces) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Tree
 |  |
@@ -159,4 +161,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/dev-ut/dp/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/dev-ut/dp/tree/master/0206-reverse-linked-list) |
+## Union Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/dev-ut/dp/tree/master/0547-number-of-provinces) |
+## Graph
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/dev-ut/dp/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
