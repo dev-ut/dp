@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/dev-ut/dp/tree/master/0733-flood-fill) |
 | [0747-min-cost-climbing-stairs](https://github.com/dev-ut/dp/tree/master/0747-min-cost-climbing-stairs) |
 | [1036-rotting-oranges](https://github.com/dev-ut/dp/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/dev-ut/dp/tree/master/1073-number-of-enclaves) |
 ## String
 |  |
 | ------- |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/dev-ut/dp/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/dev-ut/dp/tree/master/0733-flood-fill) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1073-number-of-enclaves](https://github.com/dev-ut/dp/tree/master/1073-number-of-enclaves) |
 ## Matrix
 |  |
 | ------- |
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
 | [0733-flood-fill](https://github.com/dev-ut/dp/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/dev-ut/dp/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/dev-ut/dp/tree/master/1073-number-of-enclaves) |
 ## Combinatorics
 |  |
 | ------- |
@@ -96,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/dev-ut/dp/tree/master/0733-flood-fill) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/dev-ut/dp/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/dev-ut/dp/tree/master/1073-number-of-enclaves) |
 ## Tree
 |  |
 | ------- |
@@ -183,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/dev-ut/dp/tree/master/0547-number-of-provinces) |
+| [1073-number-of-enclaves](https://github.com/dev-ut/dp/tree/master/1073-number-of-enclaves) |
 ## Graph
 |  |
 | ------- |
