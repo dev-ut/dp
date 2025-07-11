@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/dev-ut/dp/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/dev-ut/dp/tree/master/0216-combination-sum-iii) |
 | [0322-coin-change](https://github.com/dev-ut/dp/tree/master/0322-coin-change) |
+| [0455-assign-cookies](https://github.com/dev-ut/dp/tree/master/0455-assign-cookies) |
 | [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/dev-ut/dp/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/dev-ut/dp/tree/master/0503-next-greater-element-ii) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0455-assign-cookies](https://github.com/dev-ut/dp/tree/master/0455-assign-cookies) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Stack
 |  |
@@ -149,6 +151,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/dev-ut/dp/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/dev-ut/dp/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/dev-ut/dp/tree/master/0042-trapping-rain-water) |
+| [0455-assign-cookies](https://github.com/dev-ut/dp/tree/master/0455-assign-cookies) |
 ## Binary Search
 |  |
 | ------- |
@@ -201,4 +204,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/dev-ut/dp/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/dev-ut/dp/tree/master/0090-subsets-ii) |
+## Greedy
+|  |
+| ------- |
+| [0455-assign-cookies](https://github.com/dev-ut/dp/tree/master/0455-assign-cookies) |
 <!---LeetCode Topics End-->
