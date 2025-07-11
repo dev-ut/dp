@@ -4,11 +4,11 @@ public:
     {
         visited[row] = 1;
 
-        for (int col = 0; col < isConnected.size(); col++)  // col through all cities
+        for (int j= 0; j < isConnected.size(); j++)  // col through all cities
         {
-            if (isConnected[row][col] == 1 && visited[col] == 0)
+            if (isConnected[row][j] == 1 && visited[j] == 0)
             {
-                dfs(col, isConnected, visited); // visit the connected city
+                dfs(j, isConnected, visited); // visit the connected city
             }
         }
     }
@@ -19,11 +19,11 @@ public:
         int provinces = 0;
         vector<int> visited(n, 0);
 
-        for (int i = 0; i < n; i++) 
+        for (int i = 0; i < n; i++)   // why we have put looop is to accesss the uncooncted part throuygh visted array 
         {
-            if (visited[i]==0) 
+            if (visited[i]==0) /// vsited nhi hi to vsitr kro 
             {
-                dfs(i, isConnected, visited); // start DFS from unvisited city
+                dfs(i, isConnected, visited); // 
                 provinces++; // new province mil gaya
             }
         }
