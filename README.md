@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/dev-ut/dp/tree/master/0020-valid-parentheses) |
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/dev-ut/dp/tree/master/0131-palindrome-partitioning) |
+| [1045-check-if-word-is-valid-after-substitutions](https://github.com/dev-ut/dp/tree/master/1045-check-if-word-is-valid-after-substitutions) |
 ## Backtracking
 |  |
 | ------- |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/dev-ut/dp/tree/master/0084-largest-rectangle-in-histogram) |
 | [0496-next-greater-element-i](https://github.com/dev-ut/dp/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/dev-ut/dp/tree/master/0503-next-greater-element-ii) |
+| [1045-check-if-word-is-valid-after-substitutions](https://github.com/dev-ut/dp/tree/master/1045-check-if-word-is-valid-after-substitutions) |
 ## Monotonic Stack
 |  |
 | ------- |
