@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/dev-ut/dp/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/dev-ut/dp/tree/master/0070-climbing-stairs) |
 | [0120-triangle](https://github.com/dev-ut/dp/tree/master/0120-triangle) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/dev-ut/dp/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/dev-ut/dp/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/dev-ut/dp/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/dev-ut/dp/tree/master/0213-house-robber-ii) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/dev-ut/dp/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/dev-ut/dp/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dev-ut/dp/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/dev-ut/dp/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/dev-ut/dp/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/dev-ut/dp/tree/master/0547-number-of-provinces) |
@@ -124,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/dev-ut/dp/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/dev-ut/dp/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dev-ut/dp/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/dev-ut/dp/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/dev-ut/dp/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -134,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/dev-ut/dp/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/dev-ut/dp/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dev-ut/dp/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/dev-ut/dp/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/dev-ut/dp/tree/master/0543-diameter-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
