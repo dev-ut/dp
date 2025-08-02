@@ -18,8 +18,10 @@ void combination(string s, vector<string> &ans, vector<vector<string>> &fans, in
         return;
     }
 
-    for (int i = index; i < s.size(); i++) {
-        if (ispalindrome(s, index, i)) {
+    for (int i = index; i < s.size(); i++) 
+    {
+        if (ispalindrome(s, index, i)) 
+        {
             ans.push_back(s.substr(index, i - index + 1)); // Add palindrome substring to ans
             combination(s, ans, fans, i + 1); // Recur for remaining string
             ans.pop_back(); // Backtrack to explore other combinations
