@@ -1,26 +1,20 @@
 class Solution {
 public:
+ int solve(vector<int>& nums,int indx,int n,vector<int>&memo)
+ {
+     if(indx>=n) return 0;
+     if(memo[indx]!=-1) return memo[indx];
+
+     int robcurrent=nums[indx]+solve(nums,indx+2,n,memo);
+     int skipcurrent=solve(nums,indx+1,n,memo);
+     
+     memo[indx]=max(robcurrent,skipcurrent);
+     return memo[indx];
+ }
     int rob(vector<int>& nums) 
     {
-      // tabulation 
-      int n = nums.size();
-    if (n == 0) return 0;
-    if (n == 1) return nums[0];
-
-    vector<int> dp(n, 0);
-
-    // Base cases
-    dp[0] = nums[0];                     // Pehle ghar ko lootna
-    dp[1] = max(nums[0], nums[1]);       // Do ghar mein se jo zyada paisa de // its a deciding step jo bda no dega samjo whi se chlu kiya hai 
-
-
-      for(int i=2;i<n;i++)
-      {
-        int robCurrent = nums[i] + dp[i - 2];   // current ghar + i-2 tak ka max
-        int skipCurrent = dp[i - 1];            // current ghar skip
-        dp[i] = max(robCurrent, skipCurrent);   // dono mein se best option
-
-      }
-      return dp[n-1];    
+        int n=nums.size();
+        vector<int>memo(n+1,-1);
+        return solve(nums,0,n,memo);
     }
 };
