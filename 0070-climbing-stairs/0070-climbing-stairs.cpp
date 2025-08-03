@@ -8,7 +8,11 @@ public:
         if (memo[indx] != -1) return memo[indx];
 
         // memoize the number of ways from current index
-        return memo[indx] = solve(indx + 1, n, memo) + solve(indx + 2, n, memo);
+        int onestep=solve(indx + 1, n, memo) ;
+        int twostep=solve(indx + 2, n, memo);
+
+        memo[indx]=onestep+twostep;
+        return memo[indx] ;
     }
 
     int climbStairs(int n) {
