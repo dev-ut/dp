@@ -1,39 +1,43 @@
 class Solution {
 public:
-
-bool ispalindrome(const string &s, int start, int end) {
-    while (start < end) {
-        if (s[start++] != s[end--]) {
-            return false;
-        }
-        // start++;
-        // end--;
+bool isplaindrome(string&s,int si,int ei)
+{
+    int i=si;
+    int j=ei;
+    while(i<=j)
+    {
+        if(s[i++]!=s[j--]) return false;
     }
     return true;
 }
-
-void combination(string s, vector<string> &ans, vector<vector<string>> &fans, int index) {
-    if (index == s.size()) {
+ void solve(string &s,int indx,vector<string>ans,vector<vector<string>>&fans)
+ {
+    //base cae
+    if(indx==s.size())
+    {
         fans.push_back(ans);
-        return;
+        return ;
     }
 
-    for (int i = index; i < s.size(); i++) 
+    // since we have multiple starting points 
+
+    for(int i=indx;i<s.size();i++)
     {
-        if (ispalindrome(s, index, i)) 
+        if(isplaindrome(s,indx,i)==true)
         {
-            ans.push_back(s.substr(index, i - index + 1)); // Add palindrome substring to ans
-            combination(s, ans, fans, i + 1); // Recur for remaining string
-            ans.pop_back(); // Backtrack to explore other combinations
+            ans.push_back(s.substr(indx,i-indx+1));
+            solve(s,i+1,ans,fans); // i +1 ie current indx se 
+            // backtact 
+            ans.pop_back(); /// for exmple aa and include b to aab hogya whicis not a palindome
         }
     }
-}
-
-vector<vector<string>> partition(string s) {
-    vector<string> ans;
-    vector<vector<string>> fans;
-    combination(s, ans, fans, 0);
-    return fans;
-}
-
+ }
+    vector<vector<string>> partition(string s) 
+    {
+        int n =s.length();
+        vector<string>ans;
+        vector<vector<string>>fans;
+        solve(s,0,ans,fans);
+        return fans;
+    }
 };
