@@ -1,6 +1,7 @@
 class Solution {
 public:
-    int orangesRotting(vector<vector<int>>& grid) {
+    int orangesRotting(vector<vector<int>>& grid) 
+    {
         int n = grid.size();
         int m = grid[0].size();
 
@@ -19,14 +20,14 @@ public:
             }
         }
 
-        while (!q.empty()) 
+        while (q.size()>0) 
         {
             int size = q.size();         // Kitne rotten oranges hai is minute me
-            bool Rothua = false;
+            bool Rothua = false;         // flag variable to make sure time t pr eak bhi rot hua ki nhi in any direction
 
             for (int i = 0; i < size; i++) 
             {
-                auto [row, col] = q.front();
+                auto [row, col] = q.front();   // we use auto for pair
                 q.pop();
 
                 // UP
