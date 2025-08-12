@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/dev-ut/dp/tree/master/0542-01-matrix) |
 | [0713-subarray-product-less-than-k](https://github.com/dev-ut/dp/tree/master/0713-subarray-product-less-than-k) |
 | [0733-flood-fill](https://github.com/dev-ut/dp/tree/master/0733-flood-fill) |
+| [0735-asteroid-collision](https://github.com/dev-ut/dp/tree/master/0735-asteroid-collision) |
 | [0747-min-cost-climbing-stairs](https://github.com/dev-ut/dp/tree/master/0747-min-cost-climbing-stairs) |
 | [0940-fruit-into-baskets](https://github.com/dev-ut/dp/tree/master/0940-fruit-into-baskets) |
 | [1036-rotting-oranges](https://github.com/dev-ut/dp/tree/master/1036-rotting-oranges) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/dev-ut/dp/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0496-next-greater-element-i](https://github.com/dev-ut/dp/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/dev-ut/dp/tree/master/0503-next-greater-element-ii) |
+| [0735-asteroid-collision](https://github.com/dev-ut/dp/tree/master/0735-asteroid-collision) |
 | [1045-check-if-word-is-valid-after-substitutions](https://github.com/dev-ut/dp/tree/master/1045-check-if-word-is-valid-after-substitutions) |
 ## Monotonic Stack
 |  |
@@ -269,5 +271,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/dev-ut/dp/tree/master/0735-asteroid-collision) |
 | [3790-fruits-into-baskets-ii](https://github.com/dev-ut/dp/tree/master/3790-fruits-into-baskets-ii) |
 <!---LeetCode Topics End-->
