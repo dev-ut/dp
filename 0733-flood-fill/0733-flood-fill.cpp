@@ -1,60 +1,50 @@
 class Solution {
 public:
- vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) 
+    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) 
     {
-        // simmilar to rotten ornges 
-        int n = image.size();
-        int m = image[0].size();
-        int oldColor = image[sr][sc];
+        int n=image.size();
+        int m=image[0].size();
 
-        // Agar same color hai to kuch karne ki zarurat nahi
-        if (oldColor == color) return image;
+        // now we will save the oldcolor coz everytime the color is given diffrent in matrix and we ill be using bfs
+        int currentcolor=image[sr][sc];
 
-        // Queue banayi jisme har pixel ka {row, col} store karenge
-        queue<pair<int, int>> q;
-        q.push({sr, sc});
+        if(currentcolor==color) return image;
 
-        // Start pixel ko paint kar diya
-        image[sr][sc] = color;
+        queue<pair<int,int>>q;
+        q.push({sr,sc});
+        // and update the cuurent box to the color we have to assign 
+        image[sr][sc]=color;
 
-        // Jab tak queue khali na ho jaaye
-        while (q.size() > 0)
+        while(q.size()>0)
         {
-            int size = q.size();
-
+            int size=q.size();
             for (int i = 0; i < size; i++)
             {
-                auto [row, col] = q.front();
+                auto [r, c] = q.front();
                 q.pop();
 
-                // UP
-                if (row - 1 >= 0 && image[row - 1][col] == oldColor)
-                {
-                    image[row - 1][col] = color;
-                    q.push({row - 1, col});
+                // up
+                if (r-1 >= 0 && image[r-1][c] == currentcolor) {
+                    image[r-1][c] = color;
+                    q.push({r-1, c});
                 }
+                // down
+                if (r+1 < n && image[r+1][c] == currentcolor) {
+                    image[r+1][c] = color;
+                    q.push({r+1, c});
+                }
+                // left
+                if (c-1 >= 0 && image[r][c-1] == currentcolor) {
+                    image[r][c-1] = color;
+                    q.push({r, c-1});
+                }
+                // right
+                if (c+1 < m && image[r][c+1] == currentcolor) {
+                    image[r][c+1] = color;
+                    q.push({r, c+1});
 
-                // DOWN
-                if (row + 1 < n && image[row + 1][col] == oldColor)
-                {
-                    image[row + 1][col] = color;
-                    q.push({row + 1, col});
-                }
-
-                // LEFT
-                if (col - 1 >= 0 && image[row][col - 1] == oldColor)
-                {
-                    image[row][col - 1] = color;
-                    q.push({row, col - 1});
-                }
-
-                // RIGHT
-                if (col + 1 < m && image[row][col + 1] == oldColor)
-                {
-                    image[row][col + 1] = color;
-                    q.push({row, col + 1});
-                }
             }
+        }
         }
 
         return image;
