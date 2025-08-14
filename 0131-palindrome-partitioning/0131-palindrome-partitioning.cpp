@@ -1,40 +1,42 @@
 class Solution {
 public:
-bool isplaindrome(string&s,int si,int ei)
+bool isPalindrome(string &s,int si,int ei)
 {
     int i=si;
     int j=ei;
     while(i<=j)
     {
-        if(s[i++]!=s[j--]) return false;
+      if(s[i++]!=s[j--])
+      {
+       return false;
+      }
+    
     }
     return true;
 }
- void solve(string &s,int indx,vector<string>ans,vector<vector<string>>&fans)
- {
-    //base cae
-    if(indx==s.size())
+void solve(string &s,int indx,vector<string>&ans,vector<vector<string>>&fans)
+{
+    // base cade
+    if(indx==s.length())
     {
         fans.push_back(ans);
-        return ;
+        return;
     }
 
-    // since we have multiple starting points 
-
-    for(int i=indx;i<s.size();i++)
+    for(int i=indx;i<s.size();i++)  // devide krna chalu kro 
     {
-        if(isplaindrome(s,indx,i)==true)
-        {
-            ans.push_back(s.substr(indx,i-indx+1));
-            solve(s,i+1,ans,fans); // i +1 ie current indx se 
-            // backtact 
-            ans.pop_back(); /// for exmple aa and include b to aab hogya whicis not a palindome
-        }
+       if(isPalindrome(s,indx,i)==true)
+       {
+        ans.push_back(s.substr(indx,i-indx+1));
+        solve(s,i+1,ans,fans);
+        // pop back as return
+        ans.pop_back();
+       }
     }
- }
+}
     vector<vector<string>> partition(string s) 
     {
-        int n =s.length();
+        int n=s.length();
         vector<string>ans;
         vector<vector<string>>fans;
         solve(s,0,ans,fans);
