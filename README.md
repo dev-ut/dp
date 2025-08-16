@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0120-triangle](https://github.com/dev-ut/dp/tree/master/0120-triangle) |
 | [0130-surrounded-regions](https://github.com/dev-ut/dp/tree/master/0130-surrounded-regions) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dev-ut/dp/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0162-find-peak-element](https://github.com/dev-ut/dp/tree/master/0162-find-peak-element) |
 | [0198-house-robber](https://github.com/dev-ut/dp/tree/master/0198-house-robber) |
 | [0209-minimum-size-subarray-sum](https://github.com/dev-ut/dp/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/dev-ut/dp/tree/master/0213-house-robber-ii) |
@@ -200,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/dev-ut/dp/tree/master/0033-search-in-rotated-sorted-array) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/dev-ut/dp/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dev-ut/dp/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0162-find-peak-element](https://github.com/dev-ut/dp/tree/master/0162-find-peak-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/dev-ut/dp/tree/master/0209-minimum-size-subarray-sum) |
 | [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
 | [0713-subarray-product-less-than-k](https://github.com/dev-ut/dp/tree/master/0713-subarray-product-less-than-k) |
