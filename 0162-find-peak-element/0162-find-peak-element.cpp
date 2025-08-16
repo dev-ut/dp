@@ -6,6 +6,7 @@ public:
 
         int lo=0;
         int hi=n-1;
+        if(n == 1) return 0;  // single lemnt is always a peak elment  and yes agr ye nhi rakhoge to when array size is 1 mid will go out of buffer
         while(lo<=hi)
         {
            int mid=lo+(hi-lo)/2;
