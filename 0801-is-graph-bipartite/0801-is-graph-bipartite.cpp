@@ -1,39 +1,41 @@
 class Solution {
 public:
-    bool isBipartite(vector<vector<int>>& graph) 
-    {
+    bool isBipartite(vector<vector<int>>& graph) {
+        // 0 = blue
+        // 1 = red
         int v = graph.size();
-        vector<int> visited(v, -1); // -1 = unvisited
+        vector<int> visited(v, -1);  // -1 means unvisited
 
-        for(int i = 0; i < v; i++) // handle disconnected graph
-        {
-            if(visited[i] != -1) continue; // already visited
+        for (int i = 0; i < v; i++) {
+            // agar ye node abhi tak unvisited hai tabhi BFS karo
+            if (visited[i] == -1) {
+                queue<pair<int,int>> q;
+                q.push({i, 1});  
+                visited[i] = 1;  // is node ko color kar diya
 
-            queue<pair<int,int>> q; // store node and its color
-            q.push({i, 0});     // start with color 0
-            visited[i] = 0;
+                while (q.size() > 0) {
+                    auto [node, color] = q.front();
+                    q.pop();
 
-            while(!q.empty())
-            {
-                auto [node, color] = q.front();
-                q.pop();
-
-                for(int j = 0; j < graph[node].size(); j++)
-                {
-                    if(visited[graph[node][j]] == -1)
-                    {
-                        visited[graph[node][j]] = 1 - color; // assign opposite color
-                        q.push({graph[node][j], visited[graph[node][j]]});
-                    }
-                    else
-                    {
-                        if(visited[graph[node][j]] == color)
-                            return false; // same color -> not bipartite
+                    // sabhi neighbour check
+                    for (int j = 0; j < graph[node].size(); j++) {
+                        
+                        if (visited[graph[node][j]] == -1) {
+                            // agar abhi visit nahi hua, to opposite color do
+                            visited[graph[node][j]] = 1 - visited[node];
+                            q.push({graph[node][j], visited[graph[node][j]]});
+                        } 
+                        else {
+                            // agar same color mila to bipartite nahi hai
+                            if (visited[graph[node][j]] == visited[node]) {
+                                return false;
+                            }
+                        }
                     }
                 }
             }
         }
-
         return true;
     }
 };
+
