@@ -11,26 +11,46 @@
  */
 class Solution {
 public:
-   void predisplay(TreeNode* root,vector<int> &ans)
-{
-    stack<TreeNode*> st;
-
-    if(root!=NULL) st.push(root);
+// void preorder(TreeNode* root, vector<int>&ans)
+// {
+//   if(root==NULL)
+//   {
+//     return;
+//   }
+//     ans.push_back(root->val);
+//     preorder(root->left,ans);
+//     preorder(root->right,ans);
+// }
+//     vector<int> preorderTraversal(TreeNode* root) 
+//     {
+//      //recurrsive
+//      vector<int>ans;
+//      preorder(root,ans);
+//      return ans;
+        
+//     }
+ void preorder(TreeNode* root, vector<int>&ans)
+ {
+    stack<TreeNode*>st;
+    if(root!=NULL)st.push(root);
 
     while(st.size()>0)
     {
         TreeNode* x=st.top();
         st.pop();
         ans.push_back(x->val);
-        // revrse check krenge kunki stack ke top men we want left node upr rhe.
-        if(x->right!=NULL) st.push(x->right);
-        if(x->left!=NULL) st.push(x->left);
+        if(x->right!=NULL)st.push(x->right);
+        if(x->left!=NULL)st.push(x->left);
+
+        //now we will check its child and we have to keep the riht node doen 
+
     }
+ }
+vector<int> preorderTraversal(TreeNode* root) 
+{
+    // using stack iterative way 
+    vector<int>ans;
+    preorder(root,ans);
+    return ans;
 }
-    vector<int> preorderTraversal(TreeNode* root) 
-    {
-        vector<int> ans;
-        predisplay(root,ans);
-        return ans;
-    }
 };
