@@ -11,30 +11,22 @@
  */
 class Solution {
 public:
-bool check(TreeNode* leftNode, TreeNode* rightNode) 
+bool check(TreeNode* leftnode,TreeNode* rightnode)
 {
-// If both nodes are NULL, they are symmetric
-    if (leftNode == NULL && rightNode == NULL)
-        return true;
-    // If only one of them is NULL, they are not symmetric
-    if (leftNode == NULL || rightNode == NULL)
-        return false;
-    // If values are different, they are not symmetric
-    if (leftNode->val != rightNode->val)
-        return false;
-    // Recursively check symmetry
-    bool leftsubtree=check(leftNode->left, rightNode->right);
-    bool rightsubtree=check(leftNode->right, rightNode->left);
-     if(leftsubtree==false) return false;
-    if(rightsubtree==false) return false;
+    if(leftnode==NULL && rightnode==NULL) return true;
+    if(leftnode!=NULL && rightnode==NULL || leftnode==NULL && rightnode!=NULL) return false;
+    if(leftnode->val!=rightnode->val) return false;
+
+    bool outercheck=check(leftnode->left,rightnode->right);
+    bool innercheck=check(leftnode->right,rightnode->left);
+    if(outercheck==false) return false;
+    if(innercheck==false) return false;
+
     return true;
 }
-
-bool isSymmetric(TreeNode* root) 
+    bool isSymmetric(TreeNode* root) 
     {
-        if(root==NULL) return true;
-        
-        return check(root->left,root->right);
-        
+      if(root==NULL) return false;
+       return check(root->left,root->right);    
     }
 };
