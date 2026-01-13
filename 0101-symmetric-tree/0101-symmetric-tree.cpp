@@ -23,9 +23,11 @@ bool check(TreeNode* leftNode, TreeNode* rightNode)
     if (leftNode->val != rightNode->val)
         return false;
     // Recursively check symmetry
-    bool leftside=check(leftNode->left, rightNode->right);
-    bool rightside=check(leftNode->right, rightNode->left);
-    return leftside && rightside;
+    bool leftsubtree=check(leftNode->left, rightNode->right);
+    bool rightsubtree=check(leftNode->right, rightNode->left);
+     if(leftsubtree==false) return false;
+    if(rightsubtree==false) return false;
+    return true;
 }
 
 bool isSymmetric(TreeNode* root) 
