@@ -11,25 +11,22 @@
  */
 class Solution {
 public:
-int maxdia_kisi_root_se=0;
-int level(TreeNode* root)
-        {
-            if(root==NULL) return 0;
-            return 1+max(level(root->left),level(root->right));
-        }
-
+int maxdia=0;
+int height(TreeNode *root)
+{
+      if(root==NULL) return 0;
+    return 1+max(height(root->left),height(root->right));
+}
     int diameterOfBinaryTree(TreeNode* root) 
     {
         if(root==NULL) return 0;
-        int dia= level(root->left)+ level(root->right);
-        maxdia_kisi_root_se=max(dia, maxdia_kisi_root_se);
+        int dia=height(root->left)+height(root->right);
+        maxdia=max(dia,maxdia);
 
-        //age bdhao root ko pehle left  se apply basic recurssion
-
+        // now we will explore the depth form all other nodes too 
         diameterOfBinaryTree(root->left);
         diameterOfBinaryTree(root->right);
 
-
-        return maxdia_kisi_root_se ;
+        return maxdia;
     }
 };
