@@ -13,33 +13,26 @@ class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) 
     {
-    queue<TreeNode*> q; // Ek queue banate hain, jo tree ke nodes ko level-wise store karegi
-
-    vector<vector<int>> fans; // Final answer ke liye ek 2D vector
-
-    if (root != nullptr) 
-    { // Agar root null nahi hai tabhi process karte hain
-        q.push(root); // Root ko queue mein daalte hain
-    }
-
-        while (!q.empty()) 
-        { // Jab tak queue khali nahi ho jaati, level-wise process karte rahenge
-            int size = q.size(); // Har level par kitne nodes hain uska size lete hain
-            vector<int> ans; // Ek vector jo current level ke nodes ko store karega
-
-            for (int i = 0; i < size; ++i) 
-            { // Har level ke nodes ko process karenge
-                TreeNode* node = q.front(); // Queue ke front node ko nikaalte hain
-                q.pop(); // Us node ko queue se hata dete hain
-                ans.push_back(node->val); // Current node ka value ans vector mein store karte hain
-                if (node->left != nullptr) q.push(node->left); // Agar left child hai to queue mein daal do
-                if (node->right != nullptr) q.push(node->right); // Agar right child hai to bhi queue mein daal do
+        // we will write The bfs code 
+        queue<TreeNode*>q;
+        if(root!=NULL)q.push(root);
+        vector<vector<int>>fans;
+        while(q.size()>0)
+        {
+            int n=q.size();
+            vector<int>ans;
+            for(int i=0;i<n;i++)
+            {
+                TreeNode*x=q.front();
+                q.pop();
+                ans.push_back(x->val);
+                //we will ask that agr left child hai to daalo and agr right child hai to daalo 
+                if(x->left!=NULL) q.push(x->left);
+                if(x->right!=NULL) q.push(x->right);
             }
-            
-            fans.push_back(ans); // Current level ke nodes ko final answer mein daal dete hain
+            // jaise ye looop khtm hoga ie we have traversed 1 level 
+            fans.push_back(ans);
         }
-    
-    return fans; // Final answer return karte hain
-}
-    
+        return fans;
+    }
 };
