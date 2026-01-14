@@ -1,29 +1,27 @@
 class Solution {
 public:
-void generate(int n, string ans, vector<string> &fans, int ob, int cb) 
+void generate(vector<string>&fans, string str,int ob,int cb,int n)
 {
-    // Agar close brackets (cb) ki count n ke barabar ho gayi, to string push karke return karo.
-    if (cb == n) 
+    if(cb==n)
     {
-        fans.push_back(ans);
-        return;
+        fans.push_back(str);
+        return ;
     }
-
-    // Agar open brackets (ob) ki count n se kam hai, ek open bracket daalo aur aage badho.
-    if (ob < n) 
-        generate(n, ans + '(', fans, ob + 1, cb);
-
-    // Agar close brackets ki count open se kam hai, ek close bracket daalo aur aage badho.
-    if (cb < ob) 
-        generate(n, ans + ')', fans, ob, cb + 1);
+    if(ob<n)
+    {
+        generate(fans,str+'(',ob+1,cb,n);
+    }
+    if(cb<ob)
+    {
+         generate(fans,str+')',ob,cb+1,n);
+    }
 }
-
     vector<string> generateParenthesis(int n) 
     {
-        vector<string> fans;
-        string ans="";
-        generate(n,ans,fans,0,0);
+        vector<string>fans;
+        string str="";
+        generate(fans,str,0,0,n);
         return fans;
-    }
 
+    }
 };
