@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/dev-ut/dp/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/dev-ut/dp/tree/master/0503-next-greater-element-ii) |
 | [0542-01-matrix](https://github.com/dev-ut/dp/tree/master/0542-01-matrix) |
+| [0704-binary-search](https://github.com/dev-ut/dp/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/dev-ut/dp/tree/master/0713-subarray-product-less-than-k) |
 | [0733-flood-fill](https://github.com/dev-ut/dp/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/dev-ut/dp/tree/master/0735-asteroid-collision) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/dev-ut/dp/tree/master/0162-find-peak-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/dev-ut/dp/tree/master/0209-minimum-size-subarray-sum) |
 | [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
+| [0704-binary-search](https://github.com/dev-ut/dp/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/dev-ut/dp/tree/master/0713-subarray-product-less-than-k) |
 | [3790-fruits-into-baskets-ii](https://github.com/dev-ut/dp/tree/master/3790-fruits-into-baskets-ii) |
 ## Divide and Conquer
