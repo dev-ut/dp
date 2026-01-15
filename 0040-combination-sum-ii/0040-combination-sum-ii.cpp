@@ -1,34 +1,32 @@
 class Solution {
 public:
-void subset(vector<int>& nums, vector<int>& ans, vector<vector<int>>& fans, int idx, int n, int target) {
-    // base case
-    if (target == 0) {
-        fans.push_back(ans);
-        return;
-    }
+void cosum(vector<int>& candidates, int target,vector<vector<int>>&fans,vector<int>&ans,int indx,int n)
+{
     
-    if (idx == n || target < 0)
-        return;
-
-    // take
-    ans.push_back(nums[idx]);
-    subset(nums, ans, fans, idx + 1, n, target - nums[idx]);  // indx+1 coz each no has to be used once in the combination
+    if(target==0)
+    {
+        fans.push_back(ans);
+        return ;
+    }
+    if(indx==n ||target<0) return ;
+    // since we can take it multiple times 
+    ans.push_back(candidates[indx]);
+    cosum(candidates,target-candidates[indx],fans,ans,indx+1,n);
     ans.pop_back();
+    
+    //skipping duplicates
+    while(indx+1<n && candidates[indx]==candidates[indx+1])indx++;
 
-    // remove duplicates
-    while (idx + 1 < n && nums[idx] == nums[idx + 1])
-        idx++;
-
-    // not take
-    subset(nums, ans, fans, idx + 1, n, target);
+    // not atke condition 
+    cosum(candidates,target,fans,ans,indx+1,n);
 }
-
-vector<vector<int>> combinationSum2(vector<int>& nums, int target) {
-    sort(nums.begin(), nums.end());
-    int n = nums.size();
-    vector<int> ans;
-    vector<vector<int>> fans;
-    subset(nums, ans, fans, 0, n, target);
-    return fans;
-}
+    vector<vector<int>> combinationSum2(vector<int>& candidates, int target) 
+    {
+        sort(candidates.begin(),candidates.end());
+        vector<vector<int>>fans;
+        vector<int>ans;
+        int n=candidates.size();
+        cosum(candidates,target,fans,ans,0,n);
+        return fans;
+    }
 };
