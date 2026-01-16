@@ -14,6 +14,7 @@ public:
             {
                ans.push_back(mp[rem]);
                ans.push_back(i);
+               break;
             }
             else
             {
