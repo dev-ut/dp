@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/dev-ut/dp/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/dev-ut/dp/tree/master/1073-number-of-enclaves) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/dev-ut/dp/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
+| [1752-check-if-array-is-sorted-and-rotated](https://github.com/dev-ut/dp/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [3790-fruits-into-baskets-ii](https://github.com/dev-ut/dp/tree/master/3790-fruits-into-baskets-ii) |
 ## String
 |  |
