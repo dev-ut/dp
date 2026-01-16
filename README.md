@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/dev-ut/dp/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/dev-ut/dp/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/dev-ut/dp/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/dev-ut/dp/tree/master/0268-missing-number) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/dev-ut/dp/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/dev-ut/dp/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/dev-ut/dp/tree/master/0216-combination-sum-iii) |
+| [0268-missing-number](https://github.com/dev-ut/dp/tree/master/0268-missing-number) |
 | [0322-coin-change](https://github.com/dev-ut/dp/tree/master/0322-coin-change) |
 | [0455-assign-cookies](https://github.com/dev-ut/dp/tree/master/0455-assign-cookies) |
 | [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
@@ -195,12 +197,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/dev-ut/dp/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/dev-ut/dp/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/dev-ut/dp/tree/master/0160-intersection-of-two-linked-lists) |
+| [0268-missing-number](https://github.com/dev-ut/dp/tree/master/0268-missing-number) |
 | [0496-next-greater-element-i](https://github.com/dev-ut/dp/tree/master/0496-next-greater-element-i) |
 | [0940-fruit-into-baskets](https://github.com/dev-ut/dp/tree/master/0940-fruit-into-baskets) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Sorting
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/dev-ut/dp/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/dev-ut/dp/tree/master/0455-assign-cookies) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Stack
@@ -244,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/dev-ut/dp/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/dev-ut/dp/tree/master/0162-find-peak-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/dev-ut/dp/tree/master/0209-minimum-size-subarray-sum) |
+| [0268-missing-number](https://github.com/dev-ut/dp/tree/master/0268-missing-number) |
 | [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
 | [0704-binary-search](https://github.com/dev-ut/dp/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/dev-ut/dp/tree/master/0713-subarray-product-less-than-k) |
@@ -313,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/dev-ut/dp/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/dev-ut/dp/tree/master/0090-subsets-ii) |
+| [0268-missing-number](https://github.com/dev-ut/dp/tree/master/0268-missing-number) |
 ## Greedy
 |  |
 | ------- |
