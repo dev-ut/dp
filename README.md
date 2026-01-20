@@ -206,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/dev-ut/dp/tree/master/0075-sort-colors) |
+| [0148-sort-list](https://github.com/dev-ut/dp/tree/master/0148-sort-list) |
 | [0268-missing-number](https://github.com/dev-ut/dp/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/dev-ut/dp/tree/master/0455-assign-cookies) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/dev-ut/dp/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/dev-ut/dp/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/dev-ut/dp/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/dev-ut/dp/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/dev-ut/dp/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/dev-ut/dp/tree/master/0189-rotate-array) |
 | [0455-assign-cookies](https://github.com/dev-ut/dp/tree/master/0455-assign-cookies) |
@@ -260,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/dev-ut/dp/tree/master/0053-maximum-subarray) |
+| [0148-sort-list](https://github.com/dev-ut/dp/tree/master/0148-sort-list) |
 | [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
 ## Binary Indexed Tree
 |  |
@@ -273,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Merge Sort
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/dev-ut/dp/tree/master/0148-sort-list) |
 | [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
 ## Ordered Set
 |  |
@@ -293,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/dev-ut/dp/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0141-linked-list-cycle](https://github.com/dev-ut/dp/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/dev-ut/dp/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/dev-ut/dp/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/dev-ut/dp/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/dev-ut/dp/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/dev-ut/dp/tree/master/0237-delete-node-in-a-linked-list) |
