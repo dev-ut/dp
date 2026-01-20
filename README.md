@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/dev-ut/dp/tree/master/0022-generate-parentheses) |
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/dev-ut/dp/tree/master/0131-palindrome-partitioning) |
+| [0242-valid-anagram](https://github.com/dev-ut/dp/tree/master/0242-valid-anagram) |
 | [1045-check-if-word-is-valid-after-substitutions](https://github.com/dev-ut/dp/tree/master/1045-check-if-word-is-valid-after-substitutions) |
 ## Backtracking
 |  |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/dev-ut/dp/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/dev-ut/dp/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/dev-ut/dp/tree/master/0160-intersection-of-two-linked-lists) |
+| [0242-valid-anagram](https://github.com/dev-ut/dp/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/dev-ut/dp/tree/master/0268-missing-number) |
 | [0496-next-greater-element-i](https://github.com/dev-ut/dp/tree/master/0496-next-greater-element-i) |
 | [0940-fruit-into-baskets](https://github.com/dev-ut/dp/tree/master/0940-fruit-into-baskets) |
@@ -207,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0075-sort-colors](https://github.com/dev-ut/dp/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/dev-ut/dp/tree/master/0148-sort-list) |
+| [0242-valid-anagram](https://github.com/dev-ut/dp/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/dev-ut/dp/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/dev-ut/dp/tree/master/0455-assign-cookies) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
