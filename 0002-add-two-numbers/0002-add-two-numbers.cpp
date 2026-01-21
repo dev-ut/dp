@@ -51,13 +51,12 @@ public:
         //  return tempc->next;
 
          // fir se code 
-         ListNode* t1=l1;
-         ListNode* t2=l2;
-         ListNode*nl=new ListNode(0);
-         ListNode* nlp=nl;
+         ListNode * t1=l1;
+         ListNode * t2=l2;
+         ListNode *c=new ListNode(-1);
+         ListNode* tempc=c;
          int carry=0;
-
-         while(t1!=NULL ||t2!=NULL)
+         while(t1!=NULL || t2!=NULL)
          {
             int sum=0+carry;
             if(t1!=NULL)
@@ -70,22 +69,20 @@ public:
                 sum=sum+t2->val;
                 t2=t2->next;
             }
+
             carry=sum/10;
             sum=sum%10;
+            tempc->next=new ListNode(sum);
+            tempc=tempc->next;
+        }
+        if(carry>0)
+        {
+            tempc->next=new ListNode(carry);
+        }
+        tempc=c;
+        return tempc->next;
 
-            // onnect it in new list by  making new node
-            nlp->next=new ListNode(sum);
-            nlp=nlp->next;
 
-         }
-         // now maan lo last nodes m carry ata hai 
-         if(carry>0)
-         {
-            nlp->next=new ListNode(carry);
-         }
-
-         nlp=nl;
-         return nl->next;
 
     }
 };
