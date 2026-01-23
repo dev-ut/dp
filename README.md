@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/dev-ut/dp/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/dev-ut/dp/tree/master/0735-asteroid-collision) |
 | [0747-min-cost-climbing-stairs](https://github.com/dev-ut/dp/tree/master/0747-min-cost-climbing-stairs) |
+| [0881-boats-to-save-people](https://github.com/dev-ut/dp/tree/master/0881-boats-to-save-people) |
 | [0940-fruit-into-baskets](https://github.com/dev-ut/dp/tree/master/0940-fruit-into-baskets) |
 | [1036-rotting-oranges](https://github.com/dev-ut/dp/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/dev-ut/dp/tree/master/1073-number-of-enclaves) |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/dev-ut/dp/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/dev-ut/dp/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/dev-ut/dp/tree/master/0455-assign-cookies) |
+| [0881-boats-to-save-people](https://github.com/dev-ut/dp/tree/master/0881-boats-to-save-people) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Stack
 |  |
@@ -263,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/dev-ut/dp/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/dev-ut/dp/tree/master/0189-rotate-array) |
 | [0455-assign-cookies](https://github.com/dev-ut/dp/tree/master/0455-assign-cookies) |
+| [0881-boats-to-save-people](https://github.com/dev-ut/dp/tree/master/0881-boats-to-save-people) |
 ## Binary Search
 |  |
 | ------- |
@@ -352,6 +355,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0011-container-with-most-water](https://github.com/dev-ut/dp/tree/master/0011-container-with-most-water) |
 | [0455-assign-cookies](https://github.com/dev-ut/dp/tree/master/0455-assign-cookies) |
+| [0881-boats-to-save-people](https://github.com/dev-ut/dp/tree/master/0881-boats-to-save-people) |
 ## Sliding Window
 |  |
 | ------- |
