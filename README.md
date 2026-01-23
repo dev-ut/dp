@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/dev-ut/dp/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/dev-ut/dp/tree/master/0084-largest-rectangle-in-histogram) |
+| [0088-merge-sorted-array](https://github.com/dev-ut/dp/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/dev-ut/dp/tree/master/0090-subsets-ii) |
 | [0120-triangle](https://github.com/dev-ut/dp/tree/master/0120-triangle) |
 | [0130-surrounded-regions](https://github.com/dev-ut/dp/tree/master/0130-surrounded-regions) |
@@ -214,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/dev-ut/dp/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/dev-ut/dp/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/dev-ut/dp/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/dev-ut/dp/tree/master/0148-sort-list) |
 | [0242-valid-anagram](https://github.com/dev-ut/dp/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/dev-ut/dp/tree/master/0268-missing-number) |
@@ -251,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/dev-ut/dp/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/dev-ut/dp/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/dev-ut/dp/tree/master/0075-sort-colors) |
+| [0088-merge-sorted-array](https://github.com/dev-ut/dp/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/dev-ut/dp/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/dev-ut/dp/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/dev-ut/dp/tree/master/0148-sort-list) |
