@@ -7,39 +7,34 @@ public:
 
     int i = 0; // nums1 ke liye
     int j = 0; // nums2 ke liye
-    int idx = 0; // ans ke liye
+    int k = 0; // ans ke liye
 
     // jab tak dono me elements hain compare karte raho
     while(i < m && j < n)
     {
         if(nums1[i] <= nums2[j])
         {
-            ans[idx] = nums1[i];
-            idx++;
-            i++;
+            ans[k++] = nums1[i++];
+            
         }
         else
         {
-            ans[idx] = nums2[j];
-            idx++;
-            j++;
+            ans[k++] = nums2[j++];
         }
     }
 
     // agar nums1 me elements bach gaye
     while(i < m)
     {
-        ans[idx] = nums1[i];
-        idx++;
-        i++;
+        ans[k++] = nums1[i++];
+       
     }
 
     // agar nums2 me elements bach gaye
     while(j < n)
     {
-        ans[idx] = nums2[j];
-        idx++;
-        j++;
+        ans[k++] = nums2[j++];
+       
     }
 
     // ab ans ke saare elements nums1 me daal do
