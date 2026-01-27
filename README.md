@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/dev-ut/dp/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/dev-ut/dp/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/dev-ut/dp/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/dev-ut/dp/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/dev-ut/dp/tree/master/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/dev-ut/dp/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/dev-ut/dp/tree/master/0064-minimum-path-sum) |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/dev-ut/dp/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/dev-ut/dp/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/dev-ut/dp/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/dev-ut/dp/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/dev-ut/dp/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/dev-ut/dp/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/dev-ut/dp/tree/master/0090-subsets-ii) |
