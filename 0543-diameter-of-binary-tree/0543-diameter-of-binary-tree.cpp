@@ -11,22 +11,24 @@
  */
 class Solution {
 public:
-int maxdia=0;
-int height(TreeNode *root)
+int mxdia=0;
+int height(TreeNode * root)
 {
-      if(root==NULL) return 0;
-    return 1+max(height(root->left),height(root->right));
+    if(root==NULL) return 0;
+    return 1+ max(height(root->left),height(root->right));
 }
     int diameterOfBinaryTree(TreeNode* root) 
     {
-        if(root==NULL) return 0;
-        int dia=height(root->left)+height(root->right);
-        maxdia=max(dia,maxdia);
+          if(root==NULL) return 0;
+          int depth=height(root->left)+height(root->right);
+          // whatsoever ans cam ewe gona store it in mxdia 
+          mxdia=max(mxdia,depth);
 
-        // now we will explore the depth form all other nodes too 
-        diameterOfBinaryTree(root->left);
-        diameterOfBinaryTree(root->right);
+          // now we have to make call for every node so apply recurrsion 
+          diameterOfBinaryTree(root->left);
+          diameterOfBinaryTree(root->right);
 
-        return maxdia;
+          return mxdia;
+
     }
 };
