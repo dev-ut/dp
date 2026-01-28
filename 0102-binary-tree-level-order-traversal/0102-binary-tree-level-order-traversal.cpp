@@ -9,28 +9,28 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) 
     {
-        // we will write The bfs code 
+        // we will be doing it using breadth first serach 
         queue<TreeNode*>q;
-        if(root!=NULL)q.push(root);
         vector<vector<int>>fans;
+        if(root!=NULL) q.push(root);
         while(q.size()>0)
         {
-            int n=q.size();
             vector<int>ans;
+            int n=q.size();
+
             for(int i=0;i<n;i++)
             {
-                TreeNode*x=q.front();
+                TreeNode* x=q.front();
                 q.pop();
                 ans.push_back(x->val);
-                //we will ask that agr left child hai to daalo and agr right child hai to daalo 
                 if(x->left!=NULL) q.push(x->left);
-                if(x->right!=NULL) q.push(x->right);
+                if(x->right!=NULL)q.push(x->right);
             }
-            // jaise ye looop khtm hoga ie we have traversed 1 level 
             fans.push_back(ans);
         }
         return fans;
