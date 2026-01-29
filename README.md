@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0881-boats-to-save-people](https://github.com/dev-ut/dp/tree/master/0881-boats-to-save-people) |
 | [0904-fruit-into-baskets](https://github.com/dev-ut/dp/tree/master/0904-fruit-into-baskets) |
 | [0940-fruit-into-baskets](https://github.com/dev-ut/dp/tree/master/0940-fruit-into-baskets) |
+| [0977-squares-of-a-sorted-array](https://github.com/dev-ut/dp/tree/master/0977-squares-of-a-sorted-array) |
 | [1004-max-consecutive-ones-iii](https://github.com/dev-ut/dp/tree/master/1004-max-consecutive-ones-iii) |
 | [1036-rotting-oranges](https://github.com/dev-ut/dp/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/dev-ut/dp/tree/master/1073-number-of-enclaves) |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/dev-ut/dp/tree/master/0268-missing-number) |
 | [0455-assign-cookies](https://github.com/dev-ut/dp/tree/master/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/dev-ut/dp/tree/master/0881-boats-to-save-people) |
+| [0977-squares-of-a-sorted-array](https://github.com/dev-ut/dp/tree/master/0977-squares-of-a-sorted-array) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/dev-ut/dp/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Stack
 |  |
@@ -280,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/dev-ut/dp/tree/master/0189-rotate-array) |
 | [0455-assign-cookies](https://github.com/dev-ut/dp/tree/master/0455-assign-cookies) |
 | [0881-boats-to-save-people](https://github.com/dev-ut/dp/tree/master/0881-boats-to-save-people) |
+| [0977-squares-of-a-sorted-array](https://github.com/dev-ut/dp/tree/master/0977-squares-of-a-sorted-array) |
 ## Binary Search
 |  |
 | ------- |
