@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/dev-ut/dp/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/dev-ut/dp/tree/master/0503-next-greater-element-ii) |
+| [0540-single-element-in-a-sorted-array](https://github.com/dev-ut/dp/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/dev-ut/dp/tree/master/0542-01-matrix) |
 | [0704-binary-search](https://github.com/dev-ut/dp/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/dev-ut/dp/tree/master/0713-subarray-product-less-than-k) |
@@ -292,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/dev-ut/dp/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/dev-ut/dp/tree/master/0268-missing-number) |
 | [0493-reverse-pairs](https://github.com/dev-ut/dp/tree/master/0493-reverse-pairs) |
+| [0540-single-element-in-a-sorted-array](https://github.com/dev-ut/dp/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/dev-ut/dp/tree/master/0704-binary-search) |
 | [0713-subarray-product-less-than-k](https://github.com/dev-ut/dp/tree/master/0713-subarray-product-less-than-k) |
 | [1004-max-consecutive-ones-iii](https://github.com/dev-ut/dp/tree/master/1004-max-consecutive-ones-iii) |
